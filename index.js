@@ -1,5 +1,5 @@
-const mergeDataFiles = require("./merge-data-files.js");
-const splitFunctionAndTables = require("./split-function-and-tables.js");
+const mergeDataFiles = require("./feature/merge-data-files.js");
+const splitFunctionAndTables = require("./feature/split-function-and-tables.js");
 require("dotenv").config();
 switch (process.env.MODE) {
 	case "1":
